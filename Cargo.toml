@@ -1,0 +1,10 @@
+[package]
+name = "job-queue"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0.17"
+tokio = "1.49.0"
+tokio-util = "0.7.17"
+uuid = "1.19.0"
