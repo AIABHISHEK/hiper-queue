@@ -8,3 +8,10 @@ thiserror = "2.0.17"
 tokio = "1.49.0"
 tokio-util = "0.7.17"
 uuid = "1.19.0"
+
+[dependencies.uuid]
+version = "1.19.0"
+features = [
+    "v4",
+    "v7",
+]

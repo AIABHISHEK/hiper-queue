@@ -7,7 +7,7 @@ pub struct Job {
     pub id: JobId,
     pub payload: Vec<u8>,
     pub retries: u32,
-    pub max_retries: u32,
+    pub max_retries: u8,
 }
 
 impl Job {
