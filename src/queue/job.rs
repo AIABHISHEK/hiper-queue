@@ -2,7 +2,7 @@ use uuid::Uuid;
 
 pub type JobId = Uuid;
 
-
+#[derive(Debug, Clone)]
 pub struct Job {
     pub id: JobId,
     pub payload: Vec<u8>,
