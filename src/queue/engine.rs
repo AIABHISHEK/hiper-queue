@@ -56,9 +56,10 @@ impl Engine {
 
                         let _ = reply.send(job);
                     } else {
-                        let _ = reply.send(None);
+                            let _ = reply.send(None);
+                        }
                     }
-                    }
+                    
                 }
             }
         }
